@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MiniSnap | About AND CONTACT</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: dodgerblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="nav main-nav">
+                <ul><b>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">WOMEN</a></li>
+                    <li><a href="men.html">MEN</a></li>
+                    <li><a href="about.html">ABOUT & CONTACT</a></li></b>
+                </ul>
+            </nav>
+            <pre></pre>
+        </header>
+
+        <section class="content-section container">
+            <h2 class="section-header">ABOUT</h2>
+            <h1>MiniSnap is a one stop shop for all your fashion and lifestyle needs.</h1><br>
+            <img class="about-band-image" src="images/head.jpg"> <br>
+            <h3>Being India's largest e-commerce store for fashion and lifestyle products,MiniSnap aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal.<br><br> The brand is making a conscious effort to bring the power of fashion to shoppers with an array of the latest and trendiest products available in the country.</h3>
+            <p></p>
+
+            <h1 style="color: orange;"> Contact us at </h1>
+            <h3>
+            <a href="minisnap@gmail.com"> Mail us </a>
+            </h3>
+        </section>
+
+<div class="container1">
+  <div style="text-align:center">
+    <br>
+    <h2>Contact Us</h2>
+    <p>Leave us a message:</p>
+  </div>
+  <div class="row" style="background-image: url('background.jpg');">
+    <div class="column">
+      <img src="images\head.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="mailto:showminiammu2108@gmail.com">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Select</option>
+          <option value="australia">Australia</option>
+          <option value="canada">India</option>
+          <option value="usa">USA</option>
+          <option value="usa">Others</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+  <footer style="background-color: dodgerblue;"class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">MiniSnap</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="images\yt.jpg">
+                        </a>
+                    </li>
+                  
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="images\fb.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
